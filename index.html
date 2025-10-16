@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zebokxon | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Zebom<span>Dev</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Bosh sahifa</a></li>
+        <li><a href="#about">Men haqimda</a></li>
+        <li><a href="#projects">Loyihalar</a></li>
+        <li><a href="#contact">Aloqa</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero fade-section">
+    <div class="hero-content">
+      <h1>Salom, men <span>Zebo</span></h1>
+      <p>Frontend Dasturchi | Web Dizayner | Mobil Ilova Ishlab Chiquvchi</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">Loyihalarim</a>
+        <a href="#contact" class="btn secondary">Bog‘lanish</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about fade-section">
+    <h2>Men haqimda</h2>
+    <div class="about-container">
+      <img src="Zebom.jpg" alt="Zebo rasmi">
+      <div class="about-text">
+        <p>
+          Men web va mobil texnologiyalar sohasida faoliyat yurituvchi dasturchiman.
+          Fikrni interfeysga aylantirish va foydalanuvchi uchun qulay dizaynlar yaratish — asosiy maqsadim.
+        </p>
+        <div class="skills">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Firebase</span>
+        </div>
+        <a href="cv.pdf" class="btn shine" download>📄 CV Yuklab olish</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects fade-section">
+    <h2>Loyihalarim</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="Sport">
+        <h3>Sport Statistika</h3>
+        <p>Viloyatlar bo‘yicha sport ko‘rsatkichlarini tahlil qiluvchi mobil dastur.</p>
+        <a href="https://example.com/sport" target="_blank" class="btn small">Ko‘rish</a>
+      </div>
+
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692" alt="Health">
+        <h3>Sog‘lik nazorati</h3>
+        <p>Foydalanuvchi sog‘lig‘ini kuzatuvchi Flutter ilovasi.</p>
+        <a href="https://example.com/health" target="_blank" class="btn small">Ko‘rish</a>
+      </div>
+
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Portfolio">
+        <h3>Portfolio Sayt</h3>
+        <p>HTML, CSS va JS yordamida tayyorlangan shaxsiy sayt.</p>
+        <a href="https://example.com/portfolio" target="_blank" class="btn small">Ko‘rish</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact fade-section">
+    <h2>Aloqa</h2>
+    <p>Pastdagi formani to‘ldirib, menga yozishingiz mumkin 👇</p>
+    <form id="contact-form">
+      <input type="text" placeholder="Ismingiz" required>
+      <input type="email" placeholder="Email manzilingiz" required>
+      <textarea placeholder="Xabaringiz..." required></textarea>
+      <button type="submit" class="btn shine">Yuborish</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="socials">
+      <a href="https://t.me/yourusername" target="_blank"><i class="fab fa-telegram"></i></a>
+      <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com/yourusername" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <p>© 2025 ZebomDev | Web & Mobile Developer</p>
+  </footer>
+</body>
+</html>
